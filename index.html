@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A sample HTML5 webpage demonstrating semantic structure, accessibility, and SEO best practices." />
+  <meta name="keywords" content="HTML5, semantic HTML, SEO, accessibility, example" />
+  <meta name="author" content="Your Name" />
+  <title>Accessible & SEO-Friendly HTML5 Page</title>
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about" title="About Section">About</a></li>
+        <li><a href="#services" title="Services Section">Services</a></li>
+        <li><a href="#contact" title="Contact Section">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to Our Accessible & SEO-Friendly Page</h1>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We are dedicated to building web pages that are accessible, semantic, and optimized for search engines.</p>
+      <ul>
+        <li>Accessible design</li>
+        <li>Clean HTML5 structure</li>
+        <li>SEO best practices</li>
+      </ul>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <ol>
+        <li>Web Development</li>
+        <li>SEO Consultation</li>
+        <li>Accessibility Auditing</li>
+      </ol>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        <p>Email: <a href="mailto:edisonkipkemoi319@gmail.com">edisonkipkemoi319@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254727732157">+254727732157</a></p>
+      </address>
+
+      <form aria-label="Contact form">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
