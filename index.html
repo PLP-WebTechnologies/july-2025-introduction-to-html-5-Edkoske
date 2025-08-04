@@ -1,67 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- REQUIRED: Use UTF-8 encoding -->
+  <!-- SEO Metadata -->
   <meta charset="UTF-8">
-
-  <!-- REQUIRED: Make it responsive on mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- REQUIRED: Add a short page description for SEO -->
-  <meta name="description" content="">
-
-  <!-- REQUIRED: Add relevant keywords for SEO -->
-  <meta name="keywords" content="">
-
-  <!-- REQUIRED: Add your name as the author -->
-  <meta name="author" content="">
-
-  <!-- REQUIRED: Page title (important for SEO) -->
-  <title></title>
+  <meta name="description" content="An example HTML5 page demonstrating semantic structure, accessibility, and basic SEO principles.">
+  <meta name="keywords" content="HTML5, Accessibility, SEO, Semantic HTML, Web Development">
+  <meta name="author" content="Your Name">
+  <title>HTML5 Accessibility & SEO Example</title>
 </head>
 <body>
 
-  <!-- HEADER: Place the main title of the page and a short introduction -->
+  <!-- Header: Main page heading and introduction -->
   <header>
-    <!-- Use <h1> for the main heading -->
+    <h1>Building Accessible & SEO-Friendly HTML5 Pages</h1>
+    <p>This page demonstrates the use of semantic HTML5 structure, accessibility best practices, and beginner SEO techniques.</p>
   </header>
 
-  <!-- NAVIGATION: Provide main navigation links -->
+  <!-- Navigation: Clear site navigation with ARIA label for screen readers -->
   <nav aria-label="Main navigation">
-    <!-- Use <ul> and <li> for navigation items -->
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#accessibility">Accessibility</a></li>
+      <li><a href="#seo">SEO Basics</a></li>
+      <li><a href="#summary">Summary</a></li>
+    </ul>
   </nav>
 
-  <!-- MAIN CONTENT AREA -->
+  <!-- Main Content -->
   <main>
-    <!-- SECTION 1: Introduction -->
+    <!-- Introduction Section -->
     <section id="introduction">
-      <!-- <h2> for section title -->
-      <!-- Add a short paragraph introducing the topic -->
+      <h2>Introduction to Semantic HTML5</h2>
+      <p>Semantic HTML5 elements describe their meaning clearly in both human and machine-readable ways. They help improve accessibility, SEO, and code maintainability.</p>
     </section>
 
-    <!-- SECTION 2: Accessibility -->
+    <!-- Accessibility Section -->
     <section id="accessibility">
-      <!-- <h2> for section title -->
-      <!-- Use <article> for subtopics -->
+      <h2>Accessibility Best Practices</h2>
+
       <article>
-        <!-- <h3> for subtopic heading -->
-        <!-- Add brief explanation -->
+        <h3>Why Accessibility Matters</h3>
+        <p>Accessible websites ensure that people with disabilities can fully engage with content. This includes users with visual, auditory, motor, or cognitive impairments.</p>
+      </article>
+
+      <article>
+        <h3>Practical Accessibility Tips</h3>
+        <ul>
+          <li>Use descriptive alt text for images.</li>
+          <li>Ensure proper heading hierarchy.</li>
+          <li>Use ARIA attributes for assistive technologies when necessary.</li>
+          <li>Ensure keyboard navigation works throughout the site.</li>
+        </ul>
       </article>
     </section>
 
-    <!-- SECTION 3: SEO Basics -->
+    <!-- SEO Section -->
     <section id="seo">
-      <!-- <h2> for section title -->
+      <h2>SEO Basics</h2>
+
       <article>
-        <!-- <h3> for subtopic heading -->
-        <!-- Add bullet points or numbered list -->
+        <h3>What is SEO?</h3>
+        <p>Search Engine Optimization (SEO) improves your website's visibility in search results. Well-structured HTML is key to better rankings.</p>
       </article>
+
+      <article>
+        <h3>Simple SEO Tips</h3>
+        <ol>
+          <li>Use relevant and descriptive page titles.</li>
+          <li>Add meta descriptions to summarize page content.</li>
+          <li>Use keywords naturally in headings and content.</li>
+          <li>Include internal links to related pages.</li>
+        </ol>
+      </article>
+    </section>
+
+    <!-- Summary Section -->
+    <section id="summary">
+      <h2>Summary</h2>
+      <p>By combining semantic HTML5 structure, accessibility best practices, and basic SEO, you can create web pages that are user-friendly and search engine-friendly.</p>
     </section>
   </main>
 
-  <!-- FOOTER: Closing information or credits -->
+  <!-- Footer -->
   <footer>
-    <!-- Add copyright -->
+    <p>&copy; 2025 Your Name. Built for HTML5 Accessibility & SEO learning.</p>
   </footer>
 
 </body>
