@@ -1,68 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- REQUIRED: Use UTF-8 encoding -->
-  <meta charset="UTF-8">
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jecSxI3G)
+# 📘 Assignment: HTML5 + Accessibility & SEO Basics
 
-  <!-- REQUIRED: Make it responsive on mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+## Overview
 
-  <!-- REQUIRED: Add a short page description for SEO -->
-  <meta name="description" content="">
+This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
 
-  <!-- REQUIRED: Add relevant keywords for SEO -->
-  <meta name="keywords" content="">
+## Objective
 
-  <!-- REQUIRED: Add your name as the author -->
-  <meta name="author" content="">
+Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
 
-  <!-- REQUIRED: Page title (important for SEO) -->
-  <title></title>
-</head>
-<body>
+## Guidelines
 
-  <!-- HEADER: Place the main title of the page and a short introduction -->
-  <header>
-    <!-- Use <h1> for the main heading -->
-  </header>
+Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
 
-  <!-- NAVIGATION: Provide main navigation links -->
-  <nav aria-label="Main navigation">
-    <!-- Use <ul> and <li> for navigation items -->
-  </nav>
+Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
 
-  <!-- MAIN CONTENT AREA -->
-  <main>
-    <!-- SECTION 1: Introduction -->
-    <section id="introduction">
-      <!-- <h2> for section title -->
-      <!-- Add a short paragraph introducing the topic -->
-    </section>
+For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
 
-    <!-- SECTION 2: Accessibility -->
-    <section id="accessibility">
-      <!-- <h2> for section title -->
-      <!-- Use <article> for subtopics -->
-      <article>
-        <!-- <h3> for subtopic heading -->
-        <!-- Add brief explanation -->
-      </article>
-    </section>
+## Deliverables
 
-    <!-- SECTION 3: SEO Basics -->
-    <section id="seo">
-      <!-- <h2> for section title -->
-      <article>
-        <!-- <h3> for subtopic heading -->
-        <!-- Add bullet points or numbered list -->
-      </article>
-    </section>
-  </main>
+A single HTML file named `index.html`. It should include:
 
-  <!-- FOOTER: Closing information or credits -->
-  <footer>
-    <!-- Add copyright -->
-  </footer>
+* A semantic structure using appropriate HTML5 elements.
+* Clear headings in a logical hierarchy.
+* Accessibility enhancements using proper tags and attributes.
+* SEO-friendly metadata and content.
 
-</body>
-</html>
+## Tips
+
+* Use HTML5 semantic tags appropriately.
+* Organize content with accessibility in mind.
+* Apply basic on-page SEO techniques.
+* Follow clean, readable HTML code structure.
+
